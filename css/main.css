@@ -95,7 +95,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.navblock {
+    border: 5px;
+    margin: 0;
+    padding: 10px;
 
+}
 
 
 
