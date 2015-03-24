@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: ;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -284,4 +284,70 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+header {
+    background: gray;
+    padding: 5px;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+.topnav {
+    display: inline;
+    
+}
+
+a {
+    text-decoration: none;
+    width: 60px;
+}
+
+
+}
+
+main a {
+    text-decoration: none;
+}
+
+#navblock {
+
+    background: aqua; 
+    padding: 5%
+    border: ;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gray;
+    float: left;
+    max-width: 30%;
+    font-family: 'Roboto Slab', serif;
+    
+
+}
+
+.navitem {
+    list-style-type: none;
+    text-align: center;
+    line-height: 1em;
+    padding: 5px;
+    color: gray;
+
+}
+
+section {
+    float: right;
+    max-width: 60%;
+
 }
