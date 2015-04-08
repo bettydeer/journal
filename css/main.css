@@ -116,6 +116,7 @@ textarea {
 
 
 
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -284,9 +285,20 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+
 }
+
+/* Elizabeth's CSS 
+Colors: aqua #00CCC9
+        yellow #EBCD00
+        red #FF2200
+        pink #EB498D
+        mushroom #70624F
+
+*/
+
 header {
-    background: gray;
+    background: #70624F;
     padding: 5px;
     text-align: center;
 
@@ -294,7 +306,7 @@ header {
 
 h1 {
     font-family: 'Pacifico', cursive;
-    color: white;
+    color: #00CCC9 ;
 }
 
 #navbar {
@@ -302,17 +314,21 @@ h1 {
     margin: 0;
     padding: 0;
 
+
     
 }
 
 .topnav {
     display: inline;
+
+    color: white;
     
 }
 
 a {
     text-decoration: none;
     width: 60px;
+    color: ;
 }
 
 
@@ -320,20 +336,41 @@ a {
 
 main a {
     text-decoration: none;
+
+}
+
+body {
+
+    background-color: ivory;
 }
 
 #navblock {
 
-    background: aqua; 
+    background: #00CCC9; 
     padding: 5%
-    border: ;
+    border:;
     border-style: solid;
-    border-width: 2px;
+    border-width: 5px;
     border-color: gray;
     float: left;
     max-width: 30%;
+    margin-top: 30px;
+    border-radius: 10%;
     font-family: 'Roboto Slab', serif;
     
+
+}
+
+#navblock ul {
+    
+    margin-right: auto;
+    max-width: 70%;
+
+}
+
+#navblock img {
+
+    max-width: 100%;
 
 }
 
@@ -341,13 +378,59 @@ main a {
     list-style-type: none;
     text-align: center;
     line-height: 1em;
-    padding: 5px;
-    color: gray;
+    padding: 2px;
+    color: white;
+
 
 }
+
 
 section {
-    float: right;
-    max-width: 60%;
+    float: left;
+    max-width: 50%;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: black ;
+
 
 }
+
+section h2 {
+    
+    max-width: 100%;
+    background-color: #EBCD00;
+    padding: 1%; 
+
+}
+
+section h3 {
+    max-width: 100%;
+    background-color: rgba(235,205,0,.5);
+    margin-top: -15px; 
+}
+
+section img {
+    max-width: 100%;
+}
+
+/**** Footer styles ****/
+article footer {
+
+    background-color: #00CCC9;
+    height: 10px;
+    width: 100%;
+    clear: all;
+    margin-top: -10px;
+
+}
+/*
+footer {
+
+    background-color: #70624F;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    
+
+}
+*/
